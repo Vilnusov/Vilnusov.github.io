@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>KBP-task</title> 
+		<link rel="stylesheet" href="css/main.css">
+		<meta name="author" content="Prohar">
+		<meta name="project-name" content="KBP-task">
+		<meta name="page-name" content="menu-page">
+		<meta charset="UTF-8">
+	</head> 
+	<body> 
+		<div class="navigation">
+			<button class="library" onclick="LibraryPage()">
+				Библиотека
+			</button>
+			<button class="tasks" onclick="TasksPage()">
+				Упражнения
+			</button>
+			<button class="thread"onclick="ThreadPage()">
+				V potoke
+			</button>
+		</div>
+		<div class="page-content">
+			<iframe class="tasks-frame mini" id="tasks-frame" src="./tasks.html" frameborder="0"></iframe>
+			<iframe class="library-frame mini" id="library-frame" src="./library.html" frameborder="0" style="display: none;"></iframe>
+			<iframe class="potok-frame mini" id="potok-frame" src="./potok.html" frameborder="0" style="display: none;"></iframe>
+		</div>
+		<script src="./js/index.js"></script>
+	</body> 
+</html> 

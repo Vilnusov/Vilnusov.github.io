@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>KBP-task</title> 
+		<link rel="stylesheet" href="css/main.css">
+		<meta name="author" content="Prohar">
+		<meta name="project-name" content="KBP-task">
+		<meta name="page-name" content="main-page">
+		<meta charset="UTF-8">
+	</head> 
+	<body> 
+		<div class="page">
+			<div class="topimage"><img src="./assets/top-image.jpg" alt="top-image"></div>
+			<div class="center-title">
+				<h1 class="center-title_title">Если Вы хотите изменить свою реальность, то Вы должны изменить своё мышление.</h1>
+			</div>
+			<div class="navigation">
+				<button class="about-us" onclick="AboutUsPage()">О нас</button>
+				<button class="menu" onclick="MenuPage()">Меню</button>
+				<button class="contacts" onclick="ContactsPage()">Контакты</button>
+				<button class="profile" onclick="ProfilePage()">Профиль</button>
+			</div>
+			<div class="page-content">
+				<iframe class="about-us-frame main-frame" id="about-us-frame" src="./about-us.html" frameborder="0"></iframe>
+				<iframe class="contacts-frame main-frame" id="contacts-frame" src="./contacts.html" frameborder="0"></iframe>
+				<iframe class="profile-frame main-frame" id="profile-frame" src="./profile.html" frameborder="0"></iframe>
+				<iframe class="menu-frame main-frame" id="menu-frame" src="./menu.html" frameborder="0"></iframe>
+			</div>
+		</div>
+		<script src="./js/index.js"></script>
+	</body> 
+</html> 

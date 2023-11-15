@@ -1,0 +1,340 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>KBP-task</title> 
+		<link rel="stylesheet" href="css/main.css">
+		<meta name="author" content="Prohar">
+		<meta name="project-name" content="KBP-task">
+		<meta name="page-name" content="tasks-page">
+		<meta charset="UTF-8">
+	</head> 
+	<body> 
+		<div class="navigation">
+			<button class="library" onclick="FirstPage()">
+				Упражнения 1
+			</button>
+			<button class="tasks" onclick="SecondPage()">
+				Упражнения 2
+			</button>
+		</div>
+		<div class="block block-1" id="block-1">
+			<h2>Аналитическое мышление</h2>
+			<img class="image-task" src="./assets/image1.png" alt="image1">
+			<input class="default-input task-1" type="text">
+			<button id="task-1-button">ответить</button>
+			<span id="task-1-answer"></span>
+	
+			<img class="image-task" src="./assets/image2.png" alt="image2">
+			<input class="default-input task-2" type="text">
+			<button id="task-2-button">ответить</button>
+			<span id="task-2-answer"></span>
+
+			<img class="image-task" src="./assets/image3.png" alt="image3">
+			<input class="default-input task-3" type="text">
+			<button id="task-3-button">ответить</button>
+			<span id="task-3-answer"></span>
+			
+			<img class="image-task" src="./assets/image4.png" alt="image4">
+			<input class="default-input task-4" type="text">
+			<button id="task-4-button">ответить</button>
+			<span id="task-4-answer"></span>
+			
+			<img class="image-task" src="./assets/image5.png" alt="image5">
+			<input class="default-input task-5" type="text">
+			<button id="task-5-button">ответить</button>
+			<span id="task-5-answer"></span>
+			
+			<img class="image-task" src="./assets/image6.png" alt="image6">
+			<input class="default-input task-6" type="text">
+			<button id="task-6-button">ответить</button>
+			<span id="task-6-answer"></span>
+			
+			<img class="image-task" src="./assets/image7.png" alt="image7">
+			<input class="default-input task-7" type="text">
+			<button id="task-7-button">ответить</button>
+			<span id="task-7-answer"></span>
+			
+			<img class="image-task" src="./assets/image8.png" alt="image8">
+			<input class="default-input task-8" type="text">
+			<button id="task-8-button">ответить</button>
+			<span id="task-8-answer"></span>
+			
+			<img class="image-task" src="./assets/image9.png" alt="image9">
+			<input class="default-input task-9" type="text">
+			<button id="task-9-button">ответить</button>
+			<span id="task-9-answer"></span>
+			
+			<img class="image-task" src="./assets/image10.png" alt="image10">
+			<input class="default-input task-10" type="text">
+			<button id="task-10-button">ответить</button>
+			<span id="task-10-answer"></span>
+			
+			<img class="image-task" src="./assets/image11.png" alt="image11">
+			<input class="default-input task-11" type="text">
+			<button id="task-11-button">ответить</button>
+			<span id="task-11-answer"></span>
+			
+			<img class="image-task" src="./assets/image12.png" alt="image12">
+			<input class="default-input task-12" type="text">
+			<button id="task-12-button">ответить</button>
+			<span id="task-12-answer"></span>
+			
+			<img class="image-task" src="./assets/image13.png" alt="image13">
+			<input class="default-input task-13" type="text">
+			<button id="task-13-button">ответить</button>
+			<span id="task-13-answer"></span>
+			
+			<img class="image-task" src="./assets/image14.png" alt="image14">
+			<input class="default-input task-14" type="text">
+			<button id="task-14-button">ответить</button>
+			<span id="task-14-answer"></span>
+			
+			<img class="image-task" src="./assets/image15.png" alt="image15">
+			<input class="default-input task-15" type="text">
+			<button id="task-15-button">ответить</button>
+			<span id="task-15-answer"></span>
+			
+			<img class="image-task" src="./assets/image16.png" alt="image16">
+			<input class="default-input task-16" type="text">
+			<button id="task-16-button">ответить</button>
+			<span id="task-16-answer"></span>
+			
+		</div>
+		<div class="block block-2" id="block-2" style="display: none;">
+			<h2>Практические задания</h2>
+			<div class="condition-of-task">Ситуация 1. Заказчик за 30 часов до начала отгрузки передал заявку по
+				установленной форме. Перевозчик отказался выполнять заявку. Правомерны ли
+				действия перевозчика? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-17" type="text">
+			<button id="task-17-button">ответить</button>
+			<span id="task-17-answer"></span>
+			
+
+			<div class="condition-of-task">
+				Ситуация 2. Перевозчик отказался принять груз к перевозке, так как груз,
+				заявленный в заявке, в ненадлежащей упаковке. Правомерны ли действия
+				перевозчика? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-18" type="text">
+			<button id="task-18-button">ответить</button>
+			<span id="task-18-answer"></span>
+			
+
+			<div class="condition-of-task">
+				Ситуация 3. Грузополучатель при приемке груза обнаружил, что
+				маркировка имеется только на трех грузовых местах. Груз доставляется одному
+				грузополучателю, партия однородна. Грузополучатель отказался подписывать
+				документы. Прав ли он? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-19" type="text">
+			<button id="task-19-button">ответить</button>
+			<span id="task-19-answer"></span>
+			
+
+			<div class="condition-of-task">
+				Ситуация 4. Грузополучатель отказался принимать груз, мотивируя отказ
+				тем, что этот груз он не заказывал. Как в этой ситуации необходимо поступить
+				перевозчику? Что должен сделать грузополучатель? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-20" type="text">
+			<button id="task-20-button">ответить</button>
+			<span id="task-20-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 5. Транспортная компания приняла заявку об автомобильной
+				перевозке груза от компании ООО «Цветмет», однако груз не соответствовал
+				требованиям, предъявляемым к перевозке. В перевозке груза Транспортная
+				компания отказала. Обоснуйте ответ.
+			</div>
+			<input class="default-input task-21" type="text">
+			<button id="task-21-button">ответить</button>
+			<span id="task-21-answer"></span>
+
+			<div class="condition-of-task">
+				Ситуация 6. Автомобильный перевозчик осуществил выполнение
+				автомобильной перевозки грузов без оформления товарно-транспортной
+				накладной. Правомерны ли действия перевозчика? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-22" type="text">
+			<button id="task-22-button">ответить</button>
+			<span id="task-22-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 7. Автомобильный перевозчик осуществил автомобильную
+				перевозку грузов (драгоценные камни и металлы) без организации
+				сопровождения заказчиком. Правомерны ли действия перевозчика? Ответ
+				обоснуйте.
+			</div>
+			<input class="default-input task-23" type="text">
+			<button id="task-23-button">ответить</button>
+			<span id="task-23-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 8. При выполнения систематических автомобильных перевозок
+				грузов заказчик автомобильной перевозки заключил с автомобильным
+				перевозчиком договор об автомобильных перевозках грузов. Правильно ли
+				поступил перевозчик? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-24" type="text">
+			<button id="task-24-button">ответить</button>
+			<span id="task-24-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 9. После подписания договора об организации автомобильных
+				перевозок грузов заказчик автомобильной перевозки представил
+				автомобильному перевозчику заявку на автомобильную перевозку в течении 24
+				часов. Соблюдены ли сроки подачи заявки заказчиком? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-25" type="text">
+			<button id="task-25-button">ответить</button>
+			<span id="task-25-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 10. Заказчик автомобильной перевозки после внесения
+				изменений согласованной заявки представил ее перевозчику в 15.00
+				предшествующего дню автомобильной перевозки. Правильно ли поступил
+				заказчик? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-26" type="text">
+			<button id="task-26-button">ответить</button>
+			<span id="task-26-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 11. Заказчик представил к автомобильной перевозке тарный
+				груз без указания массы груза и количества грузовых мест в товарно-
+				транспортной накладной. Перевозчик отказался принимать груз. Правомерны
+				ли действия перевозчика? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-27" type="text">
+			<button id="task-27-button">ответить</button>
+			<span id="task-27-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 12. Автомобильный перевозчик при приемке груза у
+				грузоотправителя не обнаружил нарушения целостности тары и упаковки и
+				принял его по массе брутто, указанной на маркировке. Правильно ли поступил
+				перевозчик? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-28" type="text">
+			<button id="task-28-button">ответить</button>
+			<span id="task-28-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 13. Автомобильный перевозчик отказался принимать груз у
+				грузоотправителя т.к. масса одного места груза, предъявляемого
+				грузоотправителем к автомобильной перевозке, превышает грузоподъемность
+				грузового транспортного средства. Правильно ли поступил перевозчик? Ответ
+				обоснуйте.
+			</div>
+			<input class="default-input task-29" type="text">
+			<button id="task-29-button">ответить</button>
+			<span id="task-29-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 14. Автомобильный перевозчик принял мясные продукты, к
+				автомобильной перевозке без соответствующего ветеринарного свидетельства.
+				Правильно ли поступил перевозчик? Ответ обоснуйте.
+				Ситуация 15. Автомобильный перевозчик принял к автомобильной
+				перевозке груз, в котором не было замаркировано каждое грузовое место.
+				Правильно ли поступил перевозчик? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-30" type="text">
+			<button id="task-30-button">ответить</button>
+			<span id="task-30-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 16. При транспортировке груза маркировка на таре под
+				воздействием солнечных лучей выцвела. Правомерна ли перевозка такого
+				груза? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-31" type="text">
+			<button id="task-31-button">ответить</button>
+			<span id="task-31-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 17. При перевозке груза в ящиках грузоотправитель произвёл
+				маркировку на верхней части ящика. Правильно ли поступил перевозчик? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-32" type="text">
+			<button id="task-32-button">ответить</button>
+			<span id="task-32-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 18. При перевозке груза наливным способом грузоотправитель
+				не произвёл маркировку. Правильно ли поступил перевозчик? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-33" type="text">
+			<button id="task-33-button">ответить</button>
+			<span id="task-33-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 19. При разгрузке груза грузополучатель обнаружил недостачу
+				груза. Как поступить в данном случае? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-34" type="text">
+			<button id="task-34-button">ответить</button>
+			<span id="task-34-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 20. Автомобильный перевозчик по своей инициативе
+				пригласил соответствующих экспертов для установления размера и причины
+				повреждения груза. Правомерны ли действия перевозчика? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-35" type="text">
+			<button id="task-35-button">ответить</button>
+			<span id="task-35-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 21. Автомобильный перевозчик не приступил к выполнению
+				заказа в связи с технической неисправностью груза. В какие сроки провозная
+				плата, внесенная заказчиком автомобильной перевозки авансом, должна быть
+				ему возвращена? Ответ обоснуйте.	
+			</div>
+			<input class="default-input task-36" type="text">
+			<button id="task-36-button">ответить</button>
+			<span id="task-36-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 22. Автомобильным перевозчиком осуществлена перевозка
+				груза. Заказчик требует основание счета за выполненную автомобильную
+				перевозку автомобильным перевозчиком. Что является основанием? Ответ
+				обоснуйте.
+			</div>
+			<input class="default-input task-37" type="text">
+			<button id="task-37-button">ответить</button>
+			<span id="task-37-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 23. Для окончательного расчета автомобильный перевозчик в
+				20-дневный срок выписывает заказчику автомобильной перевозки счет за
+				выполненную автомобильную перевозку. Соблюдает ли сроки перевозчик?
+				Ответ обоснуйте.
+			</div>
+			<input class="default-input task-38" type="text">
+			<button id="task-38-button">ответить</button>
+			<span id="task-38-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 24. В процессе автомобильной перевозки возникли разногласия
+				между автомобильным перевозчиком и заказчиком автомобильной перевозки,
+				вызванные не сохранностью груза. Как поступить в данном случае? Ответ
+				обоснуйте.
+			</div>
+			<input class="default-input task-39" type="text">
+			<button id="task-39-button">ответить</button>
+			<span id="task-39-answer"></span>
+			
+			<div class="condition-of-task">
+				Ситуация 25. Автомобильный перевозчик предъявил претензию к
+				заказчику автомобильной перевозки. В каких случаях перевозчик мог это
+				сделать? Ответ обоснуйте.
+			</div>
+			<input class="default-input task-40" type="text">
+			<button id="task-40-button">ответить</button>
+			<span id="task-40-answer"></span>
+			
+		</div>
+		<script src="./js/answers.js"></script>
+	</body> 
+</html> 
