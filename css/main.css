@@ -45,16 +45,17 @@ button {
 
 .mini {
   width: 720px;
-  height: 530px;
+  height: 550px;
 }
 
 .image-task {
   width: 400px;
-  margin: auto;
+  margin-left: 100px;
 }
 
 input {
   margin: 20px;
+  margin-left: 100px;
   border: 3px rgb(103, 146, 124) solid;
 }
 
@@ -69,4 +70,8 @@ body {
   box-shadow: 0px 0px 20px;
   overflow: hidden;
   padding: 0px 0px 10px 0px;
+}
+
+.bold-name {
+  display: inline;
 }
