@@ -36,8 +36,8 @@ button {
 
 .main-frame {
   width: 730px;
+  height: 625px;
   margin: 0px 0px 0px 13px;
-  height: 3800px;
   border: 2px #dadada solid;
   background-color: #fafafa;
   padding: 20px;
@@ -45,7 +45,7 @@ button {
 
 .mini {
   width: 720px;
-  height: 3700px;
+  height: 530px;
 }
 
 .image-task {
